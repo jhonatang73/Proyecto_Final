@@ -73,4 +73,14 @@ st.dataframe(c)
 st.subheader("Características del Dataset")
 st.write(c.describe())
 
+##21/11/2####
+
+import folium
+from folium.plugins import MiniMap
+
+mapa = folium.Map()
+mapa
+
+
+
 
